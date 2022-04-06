@@ -2,6 +2,8 @@ server:
   port: 8088
 
 spring:
+  application:
+    name: pagoservicios-pagos
   config:
         import: optional:configserver:http://${apiconfigserver}:8888
   r2dbc:

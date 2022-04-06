@@ -2,6 +2,8 @@ server:
   port: 8083
 
 spring:
+  application:
+    name: pagoservicios-servicioux
   config:
         import: optional:configserver:http://${apiconfigserver}:8888
   security:
