@@ -5,7 +5,7 @@ spring:
   application:
     name: pagoservicios-favoritos
   config:
-        import: ${HOST_API_CONFIGSERVER}
+        import: optional:configserver:http://${HOST_API_CONFIGSERVER}:8888
   data:
       mongodb:
         host: ${HOST_MONGODB_SERVER}
