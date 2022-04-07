@@ -5,9 +5,9 @@ spring:
   application:
     name: pagoservicios-favoritos
   config:
-        import: optional:configserver:http://${apiconfigserver}:8888
+        import: ${HOST_API_CONFIGSERVER}
   data:
       mongodb:
-        host: ${mongodb_server}
+        host: ${HOST_MONGODB_SERVER}
         port: 27017
         database: favoritos

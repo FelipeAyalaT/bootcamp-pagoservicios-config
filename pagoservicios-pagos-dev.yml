@@ -5,9 +5,9 @@ spring:
   application:
     name: pagoservicios-pagos
   config:
-        import: optional:configserver:http://${apiconfigserver}:8888
+        import: ${HOST_API_CONFIGSERVER}
   r2dbc:
-        url: r2dbc:pool:mssql://${sql_server}:1433/BDPAGOSERVICIOS
+        url: ${HOST_SQL_SERVER}
         username: sa
         password: B00tcamp2022
 logging:
