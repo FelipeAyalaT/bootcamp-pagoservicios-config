@@ -11,7 +11,7 @@ spring:
     username: root
     password: B00tcamp2022
     pool:
-      enabled: true
+      enabled: false
       max-size: 20
       validation-query: SELECT 1
       initial-size: 5
