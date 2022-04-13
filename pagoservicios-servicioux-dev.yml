@@ -10,7 +10,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://${HOST_KEYCLOAK}:8084/auth/realms/Reto-Integrador-Realm
+          issuer-uri: http://${HOST_KEYCLOAK}:8080/auth/realms/Reto-Integrador-Realm
 application:
   urlApiFavoritos: http://${HOST_API_FAVORITOS}:8085/favoritos
   urlApiPagos: http://${HOST_API_PAGOS}:8088/pagos
