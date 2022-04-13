@@ -11,6 +11,7 @@ spring:
     username: root
     password: B00tcamp2022
     initialization-mode: always
+    properties.ssl: false
 logging:
   level:
     org.springframework.data.r2dbc: DEBUG
